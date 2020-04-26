@@ -1,10 +1,12 @@
 # Portfolio [![version][version-badge]][CHANGELOG]
 
 
+Porfolio developé avec Angular 8.
+ 
+ Kit Bootsrap Angular : **[Now UI Kit Angular](https://creativetimofficial.github.io/now-ui-kit-angular/index)**
 
-**[Now UI Kit Angular](https://creativetimofficial.github.io/now-ui-kit-angular/index)** is a responsive Bootstrap 4 kit provided for free by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 50 elements and 3 templates.
 
 
 
 [CHANGELOG]: ./CHANGELOG.md
-[version-badge]: https://img.shields.io/badge/version-1.2.0-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.0.0-blue
