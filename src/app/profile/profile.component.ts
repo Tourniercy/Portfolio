@@ -30,7 +30,7 @@ export class ProfileComponent implements OnInit {
       cursorColor: 'white'
     })
     const writer2 = new Typewriter(target2, {
-      typeColor: '#f96332',
+      typeColor: '#f9D349',
       typeSpeed: 80,
       deleteSpeed: 80,
       cursorColor: 'white'

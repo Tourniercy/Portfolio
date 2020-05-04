@@ -499,3 +499,15 @@
         display: none !important;
     }
 }
+.tab-content {
+    width: 100%;
+}
+.nav-link {
+     color: black;
+ }
+.nav-link:hover {
+    color: black;
+}
+.btn-social {
+    z-index: 2;
+}

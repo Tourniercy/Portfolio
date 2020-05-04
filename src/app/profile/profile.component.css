@@ -8,6 +8,8 @@
     src: url('../../assets/fonts/Roboto-bold.ttf');
     font-weight: 800;
 }
+
+
 .beside{
     display: flex;
     justify-content: start;
@@ -48,6 +50,7 @@
     font-weight: 800;
     font-size: 1.9em;
 }
+
 .title-tab {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -119,12 +122,10 @@
 .hover-2:hover .hover-overlay {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
 }
-
-
-
 #mybutton {
     position: fixed;
     top: 4px;
     right: 10px;
+    z-index: 2;
 }
 
