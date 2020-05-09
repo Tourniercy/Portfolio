@@ -1,29 +1,26 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "engines": {
     "node": "10.16.3"
   },
   "scripts": {
-    "preinstall": "npm install -g angular-cli",
-    "postinstall": "ng build --aot --prod",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "9.0.6",
-    "@angular/compiler-cli": "9.0.6",
     "@agm/core": "1.1.0",
     "@angular/animations": "9.0.6",
+    "@angular/cli": "9.0.6",
     "@angular/common": "9.0.6",
     "@angular/compiler": "9.0.6",
+    "@angular/compiler-cli": "9.0.6",
     "@angular/core": "9.0.6",
     "@angular/forms": "9.0.6",
     "@angular/http": "7.2.16",
@@ -39,6 +36,7 @@
     "bootstrap": "4.0.0",
     "copy-webpack-plugin": "5.0.1",
     "core-js": "3.6.4",
+    "express": "^4.17.1",
     "font-awesome": "4.7.0",
     "jquery": "3.3.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
